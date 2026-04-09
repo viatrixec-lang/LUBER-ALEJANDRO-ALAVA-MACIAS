@@ -73,3 +73,152 @@
   }
 
   .contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 16px 0 6px;
+  }
+
+  .contact span {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: #fafafa;
+  }
+
+  .contact a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 18px;
+  }
+
+  .tag {
+    display: inline-block;
+    background: #eaf1ff;
+    color: var(--accent);
+    padding: 7px 11px;
+    margin: 4px;
+    border-radius: 999px;
+    font-size: 0.88rem;
+    font-weight: 600;
+  }
+
+  @media (max-width: 700px) {
+    .container { padding: 14px; }
+    .card { padding: 18px; }
+    h1 { font-size: 1.6rem; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <section class="card">
+    <h1>Luber Alejandro Alava Macias</h1>
+    <p class="subtitle">Field Operations | Customer Service | General Labor | Construction Support</p>
+    <div class="contact">
+      <span>📍 Ecuador – Manabí</span>
+      <span>📞 <a href="tel:0961432176">0961432176</a></span>
+      <span>📧 <a href="mailto:luberalmacia12@hotmail.com">luberalmacia12@hotmail.com</a></span>
+    </div>
+    <p>
+      Worker with experience in customer service and field operations, highly adaptable to demanding environments and willing to perform intensive physical labor. Possesses an intermediate level of English, facilitating communication in international work settings.
+    </p>
+    <p>
+      Capable of working long shifts, handling materials up to 80 kg, and performing operational tasks such as cleaning, construction support, and manual labor. Recognized for responsibility, discipline, and ability to learn quickly.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Work Experience</h2>
+
+    <h3>Field Sales Representative / Field Operations</h3>
+    <p><strong>Megadatos – Ecuador</strong> <span class="muted">(2021 – Present)</span></p>
+    <ul>
+      <li>Field work with constant travel.</li>
+      <li>Direct customer service.</li>
+      <li>Achievement of targets under pressure.</li>
+      <li>Adaptation to different working conditions.</li>
+    </ul>
+
+    <h3>Sales Representative – Telecommunications Services</h3>
+    <p><strong>CNT / Teleconvas</strong> <span class="muted">(2016 – 2020)</span></p>
+    <ul>
+      <li>Field work with clients.</li>
+      <li>Achievement of sales goals.</li>
+      <li>Teamwork.</li>
+      <li>Handling high-pressure situations.</li>
+    </ul>
+
+    <h3>Sales Representative – Tourism Services</h3>
+    <p><strong>Multivacaciones / Club Visita Ecuador</strong> <span class="muted">(2008 – 2016)</span></p>
+    <ul>
+      <li>Direct customer service.</li>
+      <li>Work across diverse environments.</li>
+      <li>Group management.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Key Skills</h2>
+    <div>
+      <span class="tag">Physical labor</span>
+      <span class="tag">Lifting up to 80 kg</span>
+      <span class="tag">Quick adaptation</span>
+      <span class="tag">Manual tasks</span>
+      <span class="tag">Construction support</span>
+      <span class="tag">Cleaning work</span>
+      <span class="tag">Work under pressure</span>
+      <span class="tag">Teamwork</span>
+      <span class="tag">Responsibility</span>
+      <span class="tag">Punctuality</span>
+      <span class="tag">Effective communication</span>
+    </div>
+  </section>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Languages</h2>
+      <ul>
+        <li>Spanish: Native</li>
+        <li>English: Intermediate</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Education</h2>
+      <p><strong>Economist</strong></p>
+      <p>Universidad Laica Eloy Alfaro de Manabí</p>
+    </section>
+  </div>
+
+  <section class="card">
+    <h2>Availability</h2>
+    <ul>
+      <li>Immediate availability.</li>
+      <li>Availability for intensive physical labor.</li>
+      <li>Availability for long shifts.</li>
+      <li>Availability for cleaning, construction, and general labor work.</li>
+      <li>Willingness to relocate internationally.</li>
+    </ul>
+  </section>
+
+</div>
+</body>
+</html>
